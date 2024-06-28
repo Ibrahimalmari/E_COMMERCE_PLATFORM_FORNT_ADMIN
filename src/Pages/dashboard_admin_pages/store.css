@@ -1,0 +1,53 @@
+/* store.css */
+
+.sort-button {
+    height: 30px; /* تعديل ارتفاع الزر */
+    font-size: 0.8rem;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sort-button:hover {
+    background-color: #138496;
+  }
+  
+  .restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .restaurant-card {
+    width: 300px;
+    margin: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurant-cover img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .restaurant-info {
+    padding: 7px;
+  }
+  
+  .restaurant-name {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .restaurant-address,
+  .restaurant-hours {
+    font-size: 0.9rem;
+    color: rgb(28, 28, 28);
+  }
+  

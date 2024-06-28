@@ -1,0 +1,30 @@
+th {
+    font-family: 'Roboto', sans-serif;
+    /* استخدم اسم الخط الذي تفضله من Google Fonts */
+    font-weight: 700;
+    /* تحديد سمك الخط (bold) حسب الحاجة */
+    font-size: 16px;
+    /* حجم الخط حسب الحاجة */
+    color: #333;
+    /* لون الخط حسب الحاجة */
+}
+
+.loading-container {
+    position: fixed;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.loading-container>div {
+    text-align: center;
+}
+
+.loading-container-login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
